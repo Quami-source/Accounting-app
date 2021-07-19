@@ -5,3 +5,9 @@ This is the front-end implementation of [Hira Riaz](https://dribbble.com/shots/1
 ## Screen shots
 
 ![alt text](https://github.com/Quami-source/Accounting-app/blob/main/screenshots/image1.jpg)
+
+
+![alt text](https://github.com/Quami-source/Accounting-app/blob/main/screenshots/image2.jpg)
+
+
+![alt text](https://github.com/Quami-source/Accounting-app/blob/main/screenshots/image3.jpg)
