@@ -9,8 +9,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* <SignScreen/> */}
-      {/* <Dashboard/> */}
-      <RecentTransactions/>
+      <Dashboard/>
+      {/* <RecentTransactions/> */}
       <StatusBar style="auto" />
     </View>
   );

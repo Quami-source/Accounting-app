@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text,Image, Dimensions, StyleSheet,TouchableOpacity } from 'react-native';
+import { View, Text,Image, Dimensions, StyleSheet,TouchableOpacity, Alert } from 'react-native';
 import { Entypo } from '@expo/vector-icons';
 
 const width = Dimensions.get('screen').width;
@@ -8,10 +8,10 @@ export default function ProfileArea() {
     return (
         <View style={{backgroundColor:'#fff',borderRadius:10,flex:2,width:width/1.07,marginVertical:20,paddingBottom:50}}>
             <View style={styles.container}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={()=>Alert.alert("Menu","Open up the menu items")}>
                     <Image resizeMode="contain" style={{width:20,height:20}} source={{uri:"https://image.flaticon.com/icons/png/512/130/130918.png"}} />
                 </TouchableOpacity>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={()=>Alert.alert("Menu","Open up the menu items")}>
                     <Entypo name="dots-two-vertical" size={24} color="black" />
                 </TouchableOpacity>
             </View>
