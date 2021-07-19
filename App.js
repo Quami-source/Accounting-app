@@ -3,12 +3,14 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import SignScreen from './screens/SignScreen';
 import Dashboard from './screens/Dashboard';
+import RecentTransactions from './screens/RecentTransactions';
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <SignScreen/> */}
-      <Dashboard/>
+      {/* <Dashboard/> */}
+      <RecentTransactions/>
       <StatusBar style="auto" />
     </View>
   );
